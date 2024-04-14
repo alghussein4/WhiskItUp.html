@@ -1,0 +1,56 @@
+/*this is the background image, its fixed but the text moves above it*/
+body {
+    background-image: url('background11.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*to center the images*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*for every ingredient title*/
+div{
+    text-align:center;
+    font-size: 40;
+    color:rgb(0, 0, 0)
+}
+
+/*a list with no dots*/
+ul{
+    list-style-type:none;
+}
+
+/*for the listing og the items in every category*/
+li{
+    font-size: 20;
+    text-align:center;
+    font-style: italic;
+}
+
+/*for the title*/
+h1{
+    font-size: 60;
+}
+
+/*for the ingresients buttons*/
+a.button {
+    padding: 3px 6px;
+    border: 3px outset buttonborder;
+    border-color: gray;
+    border-radius: 20px;
+    color: black;
+    background-color: whitesmoke;
+    text-decoration: indigo;
+}
+
+p{
+    text-align: center;
+}
+
+
+
