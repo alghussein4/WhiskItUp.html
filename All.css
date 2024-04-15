@@ -1,0 +1,116 @@
+/*---------------------------------------------------------------INGREDIENTS---------------------------------------------------------------------*/
+html{
+    scroll-behavior: smooth; /*for a smooth scrolling*/
+}
+
+
+
+
+/*to center the images*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*for every ingredient title*/
+.II{
+    text-align:center;
+    font-size: 40;
+    color:rgb(0, 0, 0)
+}
+
+/*a list with no dots*/
+ul{
+    list-style-type:none;
+}
+
+/*for the listing og the items in every category*/
+li{
+    font-size: 20;
+    text-align:center;
+    font-style: italic;
+}
+
+/*for the title*/
+h1{
+    font-size: 60;
+}
+
+/*for the ingresients buttons*/
+a.button {
+    padding: 3px 6px;
+    border: 3px outset buttonborder;
+    border-color: gray;
+    border-radius: 20px;
+    color: black;
+    background-color: whitesmoke;
+    text-decoration: indigo;
+}
+
+p{
+    text-align: center;
+}
+
+/*the "Did you know part"*/
+h3{
+    text-align: center;
+}
+
+
+
+
+/*----------------------------------------------------------------------REVIEWS--------------------------------------------------------------*/
+#R1{
+    font-size: 25;
+}
+
+/*Review names*/
+.Name{
+    font-size:25;
+}
+
+
+
+/*--------------------------------------------------------------------RESOURCES----------------------------------------------------------------*/
+
+/*Table*/
+.Resource{
+    background-color:#77868c34;
+    border-radius: 10px;
+    border-collapse: separate;
+    border-spacing:20;
+    border: 1px #77868c;
+    text-align: center;
+}
+
+/*inside the table*/
+.all-lines{
+    background-color:#77868cb2;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 100;
+    text-align:center;
+    color:#77868cea;
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------------HOME PAGE----------------------------------------------------------------*/
+*{
+    margin:0px;
+    background-color: #F8FBFA;
+    color:#464B49;
+    font-family: "Inconsolata", monospace;
+}
+header{
+    background-color:#E6F1EC;
+}
