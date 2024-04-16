@@ -1,9 +1,10 @@
 /*The logo for all apges*/
-.logo{
-    display: block;
+.LOGO{
+    /*display: block;*/
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 30%;
+    
 }
 
 
@@ -30,7 +31,6 @@ h2{
 .Title{
     text-align: center;
     font-size: 35;
-    opacity: 1;
 }
 
 .ingredients-pic{
