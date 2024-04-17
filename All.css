@@ -1,34 +1,46 @@
 /*The logo for all apges*/
-.LOGO{
-    /*display: block;*/
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    
-}
+
 header{
     position: fixed;
     width:100%;
     top:0; /*removes the white space between the header and the page border*/
     left:0; /*same as the above but for the left*/
     background-color:#E6F1EC;
-    text-size:25px;
-    justify-content: space-between;
-    padding:30px;
+    font-size:25px;
+    padding:26px 75px;
+}
 
+
+#logo{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 35px;
+    margin-left:75px;
+}
+
+.navbar{
+    float:inline-start;
+    text-align:center;
+    
+}
+
+.pages{
+    padding-top:15px;
+    margin-left:700px;
 }
 
 .pages a{
     text-decoration: none;
-    text-align: right;
+    margin-left:43px;
 }
-.navbar{
-    float:inline-start;
-    text-align:center;
-}
+
 footer{
+    position:fixed;
+    width:100%;
+    bottom:0;
+    left:0;
     background-color:#E6F1EC;
-    text-size:25px;
+    font-size:25px;
 }
 
 
@@ -36,16 +48,22 @@ footer{
     font-family: "Inconsolata", monospace;
     color:#464B49;
 }
-main{
+body{
+
     background-color: #F8FBFA;
-    text-size:24px;
+}
+main{
+    font-size:24px;
+    margin-top:101px;
+    padding:30px 15px;
 }
 
 h1{
-    text-size:35px;
+    font-size:35px;
 }
+
 h2{
-    text-size:28px;
+    font-size:28px;
 }
 
 /*title in ingredients*/
