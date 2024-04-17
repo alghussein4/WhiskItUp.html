@@ -7,8 +7,24 @@
     
 }
 header{
+    position: fixed;
+    width:100%;
+    top:0; /*removes the white space between the header and the page border*/
+    left:0; /*same as the above but for the left*/
     background-color:#E6F1EC;
     text-size:25px;
+    justify-content: space-between;
+    padding:30px;
+
+}
+
+.pages a{
+    text-decoration: none;
+    text-align: right;
+}
+.navbar{
+    float:inline-start;
+    text-align:center;
 }
 footer{
     background-color:#E6F1EC;
