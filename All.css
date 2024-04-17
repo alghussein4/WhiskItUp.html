@@ -6,6 +6,14 @@
     width: 30%;
     
 }
+header{
+    background-color:#E6F1EC;
+    text-size:25px;
+}
+footer{
+    background-color:#E6F1EC;
+    text-size:25px;
+}
 
 
 *{
@@ -16,10 +24,7 @@ main{
     background-color: #F8FBFA;
     text-size:24px;
 }
-header{
-    background-color:#E6F1EC;
-    text-size:25px;
-}
+
 h1{
     text-size:35px;
 }
