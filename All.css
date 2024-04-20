@@ -36,6 +36,7 @@ header{
 
 footer{
     position:relative;
+    /*position:fixed;*/
     width:100%;
     bottom:0;
     left:0;
@@ -99,3 +100,38 @@ h2{
   padding: 20px;
   text-align: center;
 }
+
+.signlog{ /*sigt in and log in*/
+    height: 400px;
+    width: 40%;
+    background-color: #E6F1EC;
+    margin: auto;
+    padding: 100px 70px;
+    border-radius:80px;
+}
+
+.butt { /*submit button*/
+    background-color: #50dba8; /* Green */
+    border: none;
+    color: rgb(4, 1, 1);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 80px;
+  }
+
+  /*input box*/
+  .inputboxdiv{
+    background-color: rgb(66, 227, 152);
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+  }
+
+  .inputbox{
+    border-style: hidden;
+    background-color: rgb(66, 227, 152);
+  }
