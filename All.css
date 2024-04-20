@@ -10,6 +10,9 @@ header{
     padding:26px 75px;
 }
 
+body{
+    margin:0px;
+}
 
 #logo{
     text-decoration: none;
@@ -36,7 +39,6 @@ header{
 
 footer{
     position:relative;
-    /*position:fixed;*/
     width:100%;
     bottom:0;
     left:0;
@@ -56,15 +58,18 @@ body{
 main{
     font-size:24px;
     margin-top:101px;
-    padding:30px 15px;
+    padding:30px 50px;
+
 }
 
 h1{
-    font-size:35px;
+    font-size:50px;
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 h2{
-    font-size:28px;
+    font-size:35px;
 }
 
 /*title in ingredients*/
@@ -101,7 +106,7 @@ h2{
   text-align: center;
 }
 
-.signlog{ /*sigt in and log in*/
+.signlog{ /*sign in and log in*/
     height: 400px;
     width: 40%;
     background-color: #E6F1EC;
@@ -110,21 +115,21 @@ h2{
     border-radius:80px;
 }
 
-.butt { /*submit button*/
-    background-color: #50dba8; /* Green */
+.btn { /*submit button*/
+    background-color: rgb(111, 176, 169); /* Green */
     border: none;
-    color: rgb(4, 1, 1);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 80px;
+    font-weight: 700;
   }
 
   /*input box*/
   .inputboxdiv{
-    background-color: rgb(66, 227, 152);
+    background-color: rgb(111, 176, 169);
     padding: 10px;
     width: 50%;
     border-radius: 20px;
@@ -133,5 +138,21 @@ h2{
 
   .inputbox{
     border-style: hidden;
-    background-color: rgb(66, 227, 152);
+    background-color: rgb(111, 176, 169);
+    width:60%;
+    height:25px;
+    font-size: 24px;
+    color:#E6F1EC;
+    font-weight: bold;
+    outline:none;
+  }
+
+  .ingredientsNav a{
+    text-decoration: none;
+    background-color: rgb(111, 176, 169); 
+    padding: 10px 15px ;
+    border-radius:  80px;
+    margin:0px 7px;
+    font-weight: 600;
+    border:#464B49 1px solid;
   }

@@ -3,6 +3,11 @@
     <head>
         <!--Title-->
         <link rel="stylesheet" type="text/css" href="./All.css">
+        <style>
+            h2{
+                padding-top:101px;
+            }
+        </style>
     </head>
 
     <body>
@@ -18,22 +23,33 @@
             </nav>
            
         </header>
+
         <main>
         <h1 style="text-align:center">Ingredients</h1></p>
         <!--Under the title-->
-        <p>In this world there are alot of recipes, and as recipes varies there is still alot of common ingredients for all of them</p>
-        <p>Any body who is willing to learn how to cook needs that basic knowledge</p>
-        <p>We will be displaying the most major ingredients any meal must contain one or two of them at least:</p>
+        <p> In the world of cooking, recipes vary widely, but there are essential ingredients that are common in most of them.
+            Anyone learning to cook needs to know these basic ingredients. We'll highlight the key ingredients that appear in most meals,
+            each dish typically includes one or two of them.</p>
 
         <!--The "jump to" links or buttons-->
-        <hr>
-        <p style="text-align:center"><a href="#1" class="button">Proteins</a> | <a href="#2" class="button">Vegetables</a> | <a href="#3" class="button">Grains</a> | <a href="#4" class="button">Dairy</a> | <a href="#5" class="button">Fruits</a> | <a href="#6" class="button">Herbs and Spices</a> | <a href="#7" class="button">Oils and Fats</a> |  <a href="#8" class="button">Sweeteners</a> | <a href="#9" class="button">Liquids</a></p>
-        <hr>
+        
+        <div class="ingredientsNav" style="text-align:center">
+            <a href="#protines" class="button">Proteins</a> 
+            <a href="#veggies" class="button">Vegetables</a> 
+            <a href="#grains" class="button">Grains</a> 
+            <a href="#dairy" class="button">Dairy</a> 
+            <a href="#fruits" class="button">Fruits</a> 
+            <a href="#spices" class="button">Herbs and Spices</a> 
+            <a href="#fats" class="button">Oils and Fats</a> 
+            <a href="#sweeteners" class="button">Sweeteners</a> 
+            <a href="#liquids" class="button">Liquids</a>
+        </div>
+        
 
         <!--the ingredients start here-->
 
-            <div style="background:url(./assets/pictures/protein2.jpg) no-repeat; background-size: cover; opacity: 1; width: 60%;" >
-            <div class="Title"><p id="1">Proteins:</p></div><br>
+            <div id="protines" style="background:url(./assets/pictures/protein2.jpg) no-repeat; background-size: cover; opacity: 1; width: 60%;" >
+            <div class="Title"><h2 id="1">Proteins:</h2></div><br>
             <div ><ul>
                 <li>⇜ Meat (such as beef, chicken, no pork(keep it halal), lamb, etc.)⇝</li>
                 <li>⇜ Seafood (like fish, shrimp, scallops, etc.)⇝</li>
@@ -47,8 +63,8 @@
 
             <br>
 
-            <div>
-            <div class="Title"><p id="2" >Vegetables:</p></div><br>
+            <div id="veggies" >
+            <div class="Title"><h2 id="2" >Vegetables:</h2></div><br>
             <img src="./assets/pictures/vegetables2.jpg" height="270" border="2" class="ingredients-pic"> <!--veggies-->
             <ul>
                 <li>⇜ Onions⇝</li>
@@ -68,8 +84,8 @@
 
             <br>
 
-            <div>
-            <div class="Title"><p id=3>Grains:</p></div><br>
+            <div id="grains" >
+            <div class="Title"><h2 id=3>Grains:</h2></div><br>
             <img src="./assets/pictures/grains.jpg" alt="grains image" width="500" height="270" border="2" class="ingredients-pic"> <!--Grains image-->
             <ul>
                 <li>⇜ Rice⇝</li>
@@ -87,8 +103,8 @@
 
             <br>
 
-            <div>
-            <div class="Title"><p id=4>Dairy:</p></div><br>
+            <div id="dairy" >
+            <div class="Title"><h2 id=4>Dairy:</h2></div><br>
             <img src="./assets/pictures/cow stuff.jpg" alt="dairy image" width="500" height="270" border="2" class="ingredients-pic"> <!--dairy image-->
             <ul>
                 <li>⇜ Milk⇝</li>
@@ -104,8 +120,8 @@
 
             <br>
 
-            <div>
-            <div class="Title"><p id="5">Fruits:</p></div><br>
+            <div id="fruits" >
+            <div class="Title"><h2 id="5">Fruits:</h2></div><br>
             <img src="./assets/pictures/fruits.jpg" alt="fruits image" width="500" height="270" border="2" class="ingredients-pic"> <!--fruits-->
             <ul>
                 <li>⇜ Lemons⇝</li>
@@ -123,8 +139,8 @@
 
             <br>
 
-            <div>
-            <div class="Title"><p id="6">Herbs and Spices:</p></div><br>
+            <div id="spices" >
+            <div class="Title"><h2 id="6">Herbs and Spices:</h2></div><br>
             <img src="./assets/pictures/spice1.jpeg" alt="spice image" width="500" height="270" border="2" class="ingredients-pic"> <!--spice-->
             <ul>
                 <li>⇜ Salt⇝</li>
@@ -146,8 +162,8 @@
 
             <br>
 
-            <div>
-            <div class="Title"><p id="7">Oils and Fats:</p></div><br>
+            <div id="fats" >
+            <div class="Title"><h2 id="7">Oils and Fats:</h2></div><br>
             <img src="./assets/pictures/oil.jpg" alt="oil image" width="500" height="270" border="2" class="ingredients-pic"> <!--oil-->
             <ul>
                 <li>⇜ Olive oil⇝</li>
@@ -163,8 +179,8 @@
 
             <br>
 
-            <div>
-            <div class="Title"><p id="8">Sweeteners:</p></div><br>
+            <div id="sweeteners" >
+            <div class="Title"><h2 id="8">Sweeteners:</h2></div><br>
             <img src="./assets/pictures/sweeteners.jpg" alt="Sweeteners image" width="500" height="270" border="2" class="ingredients-pic"> <!--Sweeteners-->
             <ul>
                 <li>⇜ Sugar⇝</li>
@@ -179,8 +195,8 @@
 
             <br>
 
-            <div>
-            <div class="Title"><p id="9">Liquids:</p></div><br>
+            <div id="liquids" >
+            <div class="Title"><h2 id="9">Liquids:</h2></div><br>
             <img src="./assets/pictures/liquid.jpeg" alt="Liquids image" width="500" height="270" border="2" class="ingredients-pic"> <!--Liquids-->
             <ul>
                 <li>⇜ Water⇝</li>
@@ -193,6 +209,7 @@
             <p>Using homemade broth or stock as a base for soups not only adds depth of flavor but also provides additional nutrients compared to using water. Additionally, simmering soup ingredients in water allows for the flavors to meld together, creating a delicious and comforting dish.</p>
             </fieldset>
             </div>
+            
         </main>
             <br><br><br><br><br><br>
             <footer>
