@@ -7,9 +7,22 @@
             h2{
                 padding-top:101px;
             }
+            .ingredientsImg{
+                width:100%;
+
+            }
+            .categories div{
+                margin:50px;
+            }
+            .fact h3{
+                text-align: center;
+            }
+            .fact p{
+                padding:7px 20px;
+            }
         </style>
     </head>
-
+    
     <body>
         <header>
             <!--<img src="./assets/pictures/LOGO (2) - Copy.png" alt="LOGO" style="width: 300px;" class="logo navbar">
@@ -23,7 +36,7 @@
             </nav>
            
         </header>
-
+        
         <main>
         <h1 style="text-align:center">Ingredients</h1></p>
         <!--Under the title-->
@@ -33,7 +46,7 @@
 
         <!--The "jump to" links or buttons-->
         
-        <div class="ingredientsNav" style="text-align:center">
+        <div class="ingredientsNav" style="text-align:center; margin-top:70px;">
             <a href="#protines" class="button">Proteins</a> 
             <a href="#veggies" class="button">Vegetables</a> 
             <a href="#grains" class="button">Grains</a> 
@@ -48,25 +61,32 @@
 
         <!--the ingredients start here-->
 
-            <div id="protines" style="background:url(./assets/pictures/protein2.jpg) no-repeat; background-size: cover; opacity: 1; width: 60%;" >
+            <div id="protines" class="categories">
             <div class="Title"><h2 id="1">Proteins:</h2></div><br>
-            <div ><ul>
+            <img src="./assets/pictures/protein2.jpg" height="270" border="2" class="ingredientsImg">
+            <div >
+                <ul>
                 <li>⇜ Meat (such as beef, chicken, no pork(keep it halal), lamb, etc.)⇝</li>
                 <li>⇜ Seafood (like fish, shrimp, scallops, etc.)⇝</li>
                 <li>⇜ Tofu or other plant-based protein substitutes⇝</li>
-            </ul></div>
+                </ul>
+            </div>
+            <div class="fact">
             <fieldset>
-            <h3 style="text-align: center;">Did you know?</h3>
-            <p>Consuming an adequate amount of protein is essential for maintaining muscle mass, supporting immune function, and promoting satiety, which can aid in weight management.</p>
+            <h3>Did you know?</h3>
+            <p>Consuming an adequate amount of protein is essential for maintaining muscle mass, supporting immune function,
+                and promoting satiety, which can aid in weight management.</p>
             </fieldset>    
+            </div>
             </div>
 
             <br>
 
-            <div id="veggies" >
+            <div id="veggies"  class="categories">
             <div class="Title"><h2 id="2" >Vegetables:</h2></div><br>
-            <img src="./assets/pictures/vegetables2.jpg" height="270" border="2" class="ingredients-pic"> <!--veggies-->
-            <ul>
+            <img src="./assets/pictures/vegetables2.jpg" height="270" border="2" class="ingredientsImg"> <!--veggies-->
+            <div class="ingredients">
+                <ul>
                 <li>⇜ Onions⇝</li>
                 <li>⇜ Garlic⇝</li>
                 <li>⇜ Tomatoes⇝</li>
@@ -76,18 +96,24 @@
                 <li>⇜ Leafy greens (spinach, kale, lettuce, etc.)⇝</li>
                 <li>⇜ Potatoes⇝</li>
             </ul>
-            <fieldset>
-            <h3>Did you know?</h3>
-            <p>Vegetables are rich in vitamins, minerals, and fiber, which are essential for overall health. Consuming a variety of vegetables can help reduce the risk of chronic diseases such as heart disease, diabetes, and certain types of cancer.</p>
-            </fieldset>    
+            </div>
+            <div class="fact">
+                <fieldset>
+                <h3>Did you know?</h3>
+                <p>Vegetables are rich in vitamins, minerals, and fiber, which are essential for overall health.
+                    Consuming a variety of vegetables can help reduce the risk of chronic diseases such as heart disease,
+                    diabetes, and certain types of cancer.</p>
+                </fieldset>    
+            </div>
             </div>
 
             <br>
 
-            <div id="grains" >
+            <div id="grains"  class="categories">
             <div class="Title"><h2 id=3>Grains:</h2></div><br>
-            <img src="./assets/pictures/grains.jpg" alt="grains image" width="500" height="270" border="2" class="ingredients-pic"> <!--Grains image-->
-            <ul>
+            <img src="./assets/pictures/grains.jpg" alt="grains image" height="270" border="2" class="ingredientsImg"> <!--Grains image-->
+            <div>
+                <ul>
                 <li>⇜ Rice⇝</li>
                 <li>⇜ Pasta⇝</li>
                 <li>⇜ Quinoa⇝</li>
@@ -95,34 +121,47 @@
                 <li>⇜ Bulgur⇝</li>
                 <li>⇜ Couscous⇝</li>
             </ul>
+            </div>
+            <div class="fact">
             <fieldset>
             <h3>Did you know?</h3>
-            <p>Whole grains are a valuable source of fiber, vitamins, and minerals, which are important for digestive health, heart health, and maintaining a healthy weight. Including whole grains in your diet can help reduce the risk of chronic diseases like heart disease and type 2 diabetes.</p>
+            <p>Whole grains are a valuable source of fiber, vitamins, and minerals, which are important for digestive health,
+                heart health, and maintaining a healthy weight. Including whole grains in your diet can help reduce the risk of
+                chronic diseases like heart disease and type 2 diabetes.</p>
             </fieldset>    
             </div>
+            </div>
+        
 
             <br>
 
-            <div id="dairy" >
+            <div id="dairy"  class="categories">
             <div class="Title"><h2 id=4>Dairy:</h2></div><br>
-            <img src="./assets/pictures/cow stuff.jpg" alt="dairy image" width="500" height="270" border="2" class="ingredients-pic"> <!--dairy image-->
+            <img src="./assets/pictures/cow stuff.jpg" alt="dairy image" height="270" border="2" class="ingredientsImg"> <!--dairy image-->
+            <div>
             <ul>
                 <li>⇜ Milk⇝</li>
                 <li>⇜ Cheese (cheddar, mozzarella, Parmesan, etc.)⇝</li>
                 <li>⇜ Yogurt⇝</li>
                 <li>⇜ Butter⇝</li>
             </ul>
+            </div>
+            <div class="fact">
             <fieldset>
             <h3>Did you know?</h3>
-            <p>Dairy products are rich in calcium, which is essential for building and maintaining strong bones and teeth. Consuming dairy products can also provide protein, vitamin D, and other nutrients important for overall health. However, some people may be lactose intolerant and need to find alternative sources of these nutrients.</p>
+            <p>Dairy products are rich in calcium, which is essential for building and maintaining strong bones and teeth.
+                Consuming dairy products can also provide protein, vitamin D, and other nutrients important for overall health. 
+                However, some people may be lactose intolerant and need to find alternative sources of these nutrients.</p>
             </fieldset>    
+            </div>
             </div>
 
             <br>
 
-            <div id="fruits" >
+            <div id="fruits"  class="categories">
             <div class="Title"><h2 id="5">Fruits:</h2></div><br>
-            <img src="./assets/pictures/fruits.jpg" alt="fruits image" width="500" height="270" border="2" class="ingredients-pic"> <!--fruits-->
+            <img src="./assets/pictures/fruits.jpg" alt="fruits image" height="270" border="2" class="ingredientsImg"> <!--fruits-->
+            <div>
             <ul>
                 <li>⇜ Lemons⇝</li>
                 <li>⇜ Oranges⇝</li>
@@ -131,17 +170,24 @@
                 <li>⇜ Bananas⇝</li>
                 <li>⇜ Avocados⇝</li>
             </ul>
+            </div>
+            <div class="fact">
             <fieldset>
             <h3>Did you know?</h3>
-            <p>Fruits are packed with essential vitamins, minerals, and antioxidants, which support overall health and help reduce the risk of chronic diseases such as heart disease, stroke, and certain cancers. Incorporating a variety of fruits into your diet can contribute to improved immune function, digestion, and hydration.</p>
+            <p>Fruits are packed with essential vitamins, minerals, and antioxidants, which support overall health and help reduce
+                 the risk of chronic diseases such as heart disease, stroke, and certain cancers. 
+                 Incorporating a variety of fruits into your diet can contribute to improved immune function, 
+                 digestion, and hydration.</p>
             </fieldset>    
+            </div>
             </div>
 
             <br>
 
-            <div id="spices" >
+            <div id="spices"  class="categories">
             <div class="Title"><h2 id="6">Herbs and Spices:</h2></div><br>
-            <img src="./assets/pictures/spice1.jpeg" alt="spice image" width="500" height="270" border="2" class="ingredients-pic"> <!--spice-->
+            <img src="./assets/pictures/spice1.jpeg" alt="spice image" height="270" border="2" class="ingredientsImg"> <!--spice-->
+            <div>
             <ul>
                 <li>⇜ Salt⇝</li>
                 <li>⇜ Pepper⇝</li>
@@ -154,70 +200,99 @@
                 <li>⇜ Chili powder⇝</li>
                 <li>⇜ Curry powder⇝</li>
             </ul>
+            </div>
+            <div class="fact">
             <fieldset>
             <h3>Did you know?</h3>
-            <p>Herbs and spices are not only used to enhance the flavor of food but also offer numerous health benefits. Many herbs and spices contain powerful antioxidants and anti-inflammatory compounds that may help reduce the risk of chronic diseases like heart disease and cancer. Additionally, they can aid digestion, boost metabolism, and provide natural alternatives to salt and sugar for flavoring dishes.</p>
+            <p>Herbs and spices are not only used to enhance the flavor of food but also offer numerous health benefits. 
+                Many herbs and spices contain powerful antioxidants and anti-inflammatory compounds that may help reduce the risk 
+                of chronic diseases like heart disease and cancer. Additionally, they can aid digestion, boost metabolism, and provide 
+                natural alternatives to salt and sugar for flavoring dishes.</p>
             </fieldset>
+            </div>
             </div>
 
             <br>
 
-            <div id="fats" >
+            <div id="fats"  class="categories">
             <div class="Title"><h2 id="7">Oils and Fats:</h2></div><br>
-            <img src="./assets/pictures/oil.jpg" alt="oil image" width="500" height="270" border="2" class="ingredients-pic"> <!--oil-->
+            <img src="./assets/pictures/oil.jpg" alt="oil image" height="270" border="2" class="ingredientsImg"> <!--oil-->
+            <div>
             <ul>
                 <li>⇜ Olive oil⇝</li>
                 <li>⇜ Vegetable oil⇝</li>
                 <li>⇜ Butter⇝</li>
                 <li>⇜ Coconut oil⇝</li>
             </ul>
+            </div>
+            <div class="fact">
             <fieldset>
             <h3>Did you know?</h3>
-            <p>While fats and oils are essential for a healthy diet, it's important to choose the right types in moderation. Healthy fats found in sources like olive oil, avocados, and nuts can support heart health and aid in the absorption of fat-soluble vitamins. However, excessive consumption of unhealthy fats, such as trans fats found in processed foods, can increase the risk of heart disease and other health issues. Balancing the intake of fats and oils is key to maintaining overall health.</p>
+            <p>While fats and oils are essential for a healthy diet, it's important to choose the right types in moderation. 
+                Healthy fats found in sources like olive oil, avocados, and nuts can support heart health and aid in the absorption 
+                of fat-soluble vitamins. However, excessive consumption of unhealthy fats, such as trans fats found in processed foods, 
+                can increase the risk of heart disease and other health issues. Balancing the intake of fats and oils is key to 
+                maintaining overall health.</p>
             </fieldset>
+            </div>
             </div>
 
             <br>
 
-            <div id="sweeteners" >
+            <div id="sweeteners"  class="categories">
             <div class="Title"><h2 id="8">Sweeteners:</h2></div><br>
-            <img src="./assets/pictures/sweeteners.jpg" alt="Sweeteners image" width="500" height="270" border="2" class="ingredients-pic"> <!--Sweeteners-->
+            <img src="./assets/pictures/sweeteners.jpg" alt="Sweeteners image" height="270" border="2" class="ingredientsImg"> <!--Sweeteners-->
+            <div>
             <ul>
                 <li>⇜ Sugar⇝</li>
                 <li>⇜ Honey⇝</li>
                 <li>⇜ Maple syrup⇝</li>
             </ul>
+            </div>
+            <div class="fact">
             <fieldset>
             <h3>Did you know?</h3>
-            <p>Consuming excessive amounts of added sugars and artificial sweeteners may contribute to health issues such as obesity, type 2 diabetes, and dental problems. Opting for natural sweeteners like honey, maple syrup, or stevia in moderation can be a better choice to satisfy sweet cravings while minimizing the negative health impacts.</p>
+            <p>Consuming excessive amounts of added sugars and artificial sweeteners may contribute to health issues such as obesity, 
+                type 2 diabetes, and dental problems. Opting for natural sweeteners like honey, maple syrup, or stevia in moderation 
+                can be a better choice to satisfy sweet cravings while minimizing the negative health impacts.</p>
             </fieldset>
+            </div>
             </div>
 
             <br>
 
-            <div id="liquids" >
+            <div id="liquids"  class="categories">
             <div class="Title"><h2 id="9">Liquids:</h2></div><br>
-            <img src="./assets/pictures/liquid.jpeg" alt="Liquids image" width="500" height="270" border="2" class="ingredients-pic"> <!--Liquids-->
+            <img src="./assets/pictures/liquid.jpeg" alt="Liquids image" height="270" border="2" class="ingredientsImg"> <!--Liquids-->
+            <div>
             <ul>
                 <li>⇜ Water⇝</li>
                 <li>⇜ Broth (vegetable, chicken, beef, etc.)⇝</li>
                 <li>⇜ Wine⇝</li>
                 <li>⇜ Vinegar (balsamic, white, red wine, etc.)⇝</li>
             </ul>
+            </div>
+            <div class="fact">
             <fieldset>
             <h3>Did you know?</h3>
-            <p>Using homemade broth or stock as a base for soups not only adds depth of flavor but also provides additional nutrients compared to using water. Additionally, simmering soup ingredients in water allows for the flavors to meld together, creating a delicious and comforting dish.</p>
+            <p>Using homemade broth or stock as a base for soups not only adds depth of flavor but also provides additional nutrients 
+                compared to using water. Additionally, simmering soup ingredients in water allows for the flavors to meld together, 
+                creating a delicious and comforting dish.</p>
             </fieldset>
             </div>
-            
+            </div>
+
         </main>
             <br><br><br><br><br><br>
             <footer>
                 <div>
                     <p>Follow us:</p>
-                    <ul type="none">
-                        <li><a href="https://www.instagram.com/whis.kitup?igsh=MXNia3U5b2I4ejgwMQ=="><img src="./assets/pictures/insta.png" style="width: 25px;"></a></li>
+                    <ul type="none" class="socials">
+                        <li><a href="https://www.instagram.com/whis.kitup?igsh=MXNia3U5b2I4ejgwMQ=="><img src="./assets/pictures/instagram.png"></a></li>
+                        <li><a href=""><img src="./assets/pictures/facebook.png" alt=""></a></li>
+                        <li><a href=""><img src="./assets/pictures/youtube.png" alt=""></a></li>
                     </ul>
+                    
                     <nav>
                         Help?<br>
                         <a href="tel 0799383718">Call us</a>
