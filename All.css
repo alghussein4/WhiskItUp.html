@@ -1,4 +1,7 @@
 /*The logo for all apges*/
+*{
+  scroll-behavior: smooth;
+}
 
 header{
     position: fixed;
