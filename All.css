@@ -160,3 +160,33 @@ h2{
   .socials img{
     width:70px;
   }
+
+  .tableback{
+    background-color:#E6F1EC;
+    padding: 50px;
+    border-radius: 50px;
+  }
+
+  .centerTable{
+    border-radius: 50px;
+    padding: 20px;
+  }
+
+  .inTable{
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgba(126, 234, 171, 0.388);
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .revBackround{
+    background-color: #E6F1EC;
+    padding: 50px;
+    border-radius: 50px;
+  }
+
+  .revFieldset{
+    border-radius: 50px;
+    padding: 30px;
+  }
