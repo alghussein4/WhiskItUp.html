@@ -1,7 +1,7 @@
 # WhiskItUp
 Cooking website
 <br>
-i dont feel ok
+i do feel okay now
 <br>
 
 
