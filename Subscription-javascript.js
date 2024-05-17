@@ -5,19 +5,18 @@ const keys=Object.keys(meals);
 //What user checked:
 var checkedInput=document.getElementsByName("contant");
 var selected=[];
-var total=0;
-
 
 
 //When Done! :
-function calulateTotal(){
+function  getItemTotal(){
+var total=0;
 for(let i=0;i<checkedInput.length;i++){
     if(checkedInput[i].checked){
     var keys = checkedInput[i].value;
     total += meals[keys];
     }
 }
-document.getElementById("Display").innerHTML="Total:  "+total+"$";
+return total;
 }
 
 function receipt(){
@@ -30,5 +29,15 @@ function receipt(){
       document.getElementById('content').textContent = `${selected.join(', ')}`;
 }
 
+function getPeopleTotal(){
+  var i=document.getElementById("numOfPortions").value;
+  var ppl = Number(i)*10;
+  return ppl;
+}
+
+function calculateTotal(){
+  var total=getItemTotal()+getPeopleTotal();
+  document.getElementById("Display").innerHTML="Total:  "+total+"$";
+}
 
 
