@@ -1,3 +1,47 @@
 <html>
-    
+    <head>
+        <title>Subscriptions</title>
+        <script src="./Subscription-javascript.js"></script>
+        <link rel="stylesheet" type="text/css" href="./All.css">
+        <style>
+            /*To center the table of contant*/
+            .center{
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div><p>Us in WHISKITUP offer you meal plans too, you can check and calculate the fees down below:</p></div>
+        <fieldset>
+        <div style="text-align: center;">
+            <p>What do you want to eat, you can select more than one item:</p>
+            <table class="center">
+                <tr>
+                    <th colspan="2" style="text-align: left;"><input type="checkbox" name="contant" value="Meat">Meat</th>
+                    <th colspan="2" style="text-align: left;"><input type="checkbox" name="contant" value="Chicken">Chicken</th>
+                    <th colspan="2" style="text-align: left;"><input type="checkbox" name="contant" value="Salad">Salad</th>
+                </tr>
+                <tr>
+                    <th colspan="2" style="text-align: left;"><input type="checkbox" name="contant" value="Rice">Rice</th>
+                    <th colspan="2" style="text-align: left;"><input type="checkbox" name="contant" value="Juice">Juice</th>
+                    <th colspan="2" style="text-align: left;"><input type="checkbox" name="contant" value="Sweets">Sweets</th>
+                </tr>
+                <tr>
+                    <th colspan="2" style="text-align: left;"><input type="checkbox" name="contant" value="Macaroni">Macaroni</th>
+                    <th colspan="2" style="text-align: left;"><input type="checkbox" name="contant" value="Appetizers">Appetizers</th>
+                    <th colspan="2" style="text-align: left;"></th>
+                </tr>
+            </table>
+            <button type="button" onclick="calulateTotal()">Done!</button>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <p id="Display"></p>
+        </fieldset>
+        
+    </body>
 </html>
