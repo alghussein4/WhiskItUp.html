@@ -4,7 +4,9 @@ const keys=Object.keys(meals);
 
 //What user checked:
 var checkedInput=document.getElementsByName("contant");
+var selected=[];
 var total=0;
+
 
 
 //When Done! :
@@ -15,7 +17,18 @@ for(let i=0;i<checkedInput.length;i++){
     total += meals[keys];
     }
 }
-document.getElementById("Display").innerHTML=total;
+document.getElementById("Display").innerHTML="Total:  "+total+"$";
 }
+
+function receipt(){
+    for (let i = 0; i<checkedInput.length; i++) {
+        if (checkedInput[i].checked) {
+          selected.push(checkboxes[i].value);
+        }
+      }
+      console.log(checkedValues);
+      document.getElementById('content').textContent = `${selected.join(', ')}`;
+}
+
 
 
