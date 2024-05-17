@@ -19,7 +19,7 @@ for(let i=0;i<checkedInput.length;i++){
 return total;
 }
 
-function receipt(){
+/*function receipt(){
     for (let i = 0; i<checkedInput.length; i++) {
         if (checkedInput[i].checked) {
           selected.push(checkboxes[i].value);
@@ -27,16 +27,19 @@ function receipt(){
       }
       console.log(checkedValues);
       document.getElementById('content').textContent = `${selected.join(', ')}`;
-}
+}*/
 
 function getPeopleTotal(){
+  //Number of ppl:
   var i=document.getElementById("numOfPortions").value;
   var ppl = Number(i)*10;
   return ppl;
 }
 
+//Total:
 function calculateTotal(){
   var total=getItemTotal()+getPeopleTotal();
+  window.alert('Your order is set, it might need 12 hours to arrive'); //alert
   document.getElementById("Display").innerHTML="Total:  "+total+"$";
 }
 
