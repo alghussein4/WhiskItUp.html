@@ -19,19 +19,9 @@ for(let i=0;i<checkedInput.length;i++){
 return total;
 }
 
-/*function receipt(){
-    for (let i = 0; i<checkedInput.length; i++) {
-        if (checkedInput[i].checked) {
-          selected.push(checkboxes[i].value);
-        }
-      }
-      console.log(checkedValues);
-      document.getElementById('content').textContent = `${selected.join(', ')}`;
-}*/
 
 function getPeopleTotal(){
   //Number of ppl:
-  
   var i=document.getElementById("numOfPortions").value;
   if(i=="none"){
     document.getElementById("selectError").innerHTML="Please select the number of people";
@@ -113,6 +103,22 @@ function isDeliverySelected(){
     return false;
   }
 }
+
+//Show order info:
+function show(){
+  var msg=document.getElementById('Display');
+  msg.value='';
+  for(let i = 0; i < checkedInput.length; i++){
+    if(checkedInput[i].checked){
+      msg.value+=checkedInput[i].value+'\n';
+    }
+  }
+}
+var msg=document.getElementById('Display');
+for (let i = 0; i < checkboxes.length; i++) {
+  checkedInput[i].addEventListener('change', show);
+}
+show();
 
 //Total:
 function calculateTotal(){
