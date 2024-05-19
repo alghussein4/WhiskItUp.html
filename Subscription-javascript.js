@@ -105,20 +105,25 @@ function isDeliverySelected(){
 }
 
 //Show order info:
+var j=1;
 function show(){
-  var msg=document.getElementById('Display');
+  var msg=document.getElementById('Display2');
+  //document.getElementsById('Display2').innerHTML="This is what you ordered";
   msg.value='';
   for(let i = 0; i < checkedInput.length; i++){
     if(checkedInput[i].checked){
-      msg.value+=checkedInput[i].value+'\n';
+      msg.value+=j+'-'+checkedInput[i].value+'\n';
+      j++;
     }
   }
 }
-var msg=document.getElementById('Display');
+var msg=document.getElementById('Display2');
 for (let i = 0; i < checkboxes.length; i++) {
   checkedInput[i].addEventListener('change', show);
 }
 show();
+
+
 
 //Total:
 function calculateTotal(){
