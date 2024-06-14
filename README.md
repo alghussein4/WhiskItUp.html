@@ -1,5 +1,5 @@
 # WhiskItUp
-WhiskItUp
+
 Welcome to WhiskItUp, your ultimate culinary companion! Discover a world of delicious recipes, all in one place. WhiskItUp is designed to cater to food enthusiasts of all levels, from novice home cooks to seasoned chefs.
 
 Features:
